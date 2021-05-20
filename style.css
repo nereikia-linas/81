@@ -1,0 +1,195 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+  background: #dbe2ef;
+  color: #112d4e;
+  padding-top: 0.1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 2%;
+    border-style: outset;
+    border-width: 2px;
+}
+
+button {
+  width: 80%;
+  height: 2.4em;
+  background: #112d4e;
+  padding-left: 2%;
+  font-size: 0.8em;
+  color: #dbe2ef;
+  border-top: 0.2em solid gray;
+  border-left: 0.2em solid darkgray;
+  border-bottom: 0.2em solid #112d4e;
+  border-right: 0.2em solid #112d4e;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #dbe2ef;
+  color:  #112d4e;
+  border-top: 0.2em solid gray;
+  border-left: 0.2em solid darkgray;
+  border-bottom: 0.2em solid #112d4e;
+  border-right: 0.2em solid #112d4e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.hat {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subtitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.subtitle2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.labels1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 20%;
+  padding-right: 1%;
+  text-align: right;
+  font-size: 0.8em;
+  margin-bottom: 0.6%;
+}
+
+.labels2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 30%;
+  padding-right: 1%;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.labels3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 0.8em;
+}
+
+.inpts {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.inpt {
+  height: 1.8em;
+  background: #f9f7f7;
+  margin-bottom: 0.5%;
+  border-top: 0.25em solid #112d4e;
+  border-left: 0.25em solid #112d4e;
+  border-bottom: 0.25em solid darkgray;
+  border-right: 0.25em solid gray;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.hr1 {
+  width: 100%;
+  margin-bottom: 1%;
+  border-style: outset;
+  border-width: 1px;
+}
+
+.line {
+  margin-left: 1%;
+  font-size: 0.9em;
+}
+
+.placecontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 5%;
+  padding-left: 8%;
+}
+
+.place {
+  height: 2.4em;
+  background: #112d4e;
+  padding-left: 2%;
+  font-size: 0.8em;
+  color: #dbe2ef;
+  border-top: 0.2em solid gray;
+  border-left: 0.2em solid darkgray;
+  border-bottom: 0.2em solid #112d4e;
+  border-right: 0.2em solid #112d4e;
+  border-radius: 5px;
+}
+
+.place:hover {
+  background: #dbe2ef;
+  color:  #112d4e;
+  border-top: 0.2em solid gray;
+  border-left: 0.2em solid darkgray;
+  border-bottom: 0.2em solid #112d4e;
+  border-right: 0.2em solid #112d4e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+
+.place:hover option {
+  background: #112d4e;
+  color: #dbe2ef;
+}
+
+.datecontainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 40%;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.date {
+  font-size: 1.4em;
+}
+
+.kontrole {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.8em;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.kontrolepart {
+  display: flex;
+  flex-direction: row;
+  height: 2em;
+}

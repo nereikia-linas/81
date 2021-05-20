@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Reklamacija</title>
+</head>
+
+<body>
+
+  <form action="patvirtinimas.html" target="_blank" method="get">
+    <div class="hat">
+      <h2>Reklamacija, dėl įsigytų prekių kokybės</h2>
+      <h3>Užpildykite žemiau esančią formą</h3>
+      <hr>
+    </div>
+
+    <div class="subtitle">
+      <div class="labels1">
+        <label for="Vardas">Vardas:</label>
+        <label for="Pavardė">Pavardė:</label>
+        <label for="Telefonas">Tel. Nr:</label>
+        <label for="El. paštas">El. paštas:</label>
+      </div>
+      <div class="inpts">
+        <input class="inpt" type="text" id="Vardas" name="VARDAS" placeholder="&nbsp;Įrašykite vardą, rašydami nenaudokite „ “ % = + #" required>
+        <input class="inpt" type="text" id="Pavardė" name="PAVARDĖ" placeholder="&nbsp;Įrašykite pavardę, rašydami nenaudokite „ “ % = + #" required>
+        <input class="inpt" type="tel" maxlength="12" id="Telefonas" name="TELEFONAS" placeholder="&nbsp;Rašykite be kodo, tarpų ir simbolių, pvz. 68968999" required>
+        <input class="inpt" type="email" id="Email" name="EMAIL" placeholder="&nbsp;Įrašykite galiojantį el. pašto adresą" required>
+      </div>
+    </div>
+    <hr class="hr1">
+    <div class="subtitle">
+      <p class="line">Nurodykite prekės įsigyjimo vietą ir datą:</p>
+    </div>
+
+    <div class="subtitle2">
+      <div class="placecontainer">
+        <select class="place" name="Parduotuvė" required>
+          <option value="#" hidden>Parduotuvė (pasirinkite)</option>
+          <option value="Vilnius">Akropolis (Vilnius)</option>
+          <option value="Kaunas">Akropolis (Kaunas)</option>
+          <option value="Klaipėda">PLC BIG (Klaipėda)</option>
+          <option value="Šiauliai">PLC Tilžė (Šiauliai) </option>
+          <option value="Panevėžys">PC RYO (Panevėžys) </option>
+        </select>
+      </div>
+      <div class="labels2">
+        <label for="Data">Pirkimo data:</label>
+      </div>
+      <div class="datecontainer">
+        <div class="date">
+          <input class="inpt" type="date" id="Data" name="APSILANKYMO DATA">
+        </div>
+      </div>
+    </div>
+    <hr class="hr1">
+    <div class="subtitle">
+      <p class="line">Pažymėkite jums tinkamą prekės neatitikimo aukštiems standartams ar jūsų lūkesčiams reikšmę:</p>
+    </div>
+    <div class="subtitle">
+      <div class="kontrole">
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Subraizyta"><label for="Subraizyta">Subraižyta kaip reikiant</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Slamstas"><label for="Slamstas">Tokio šlamšto dar nemačiau</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Patys"><label for="Patys">Patys nešiokit</label>
+        </div>
+      </div>
+      <div class="kontrole">
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Brangu"><label for="Brangu">Žiauriai per brangu (draugas sakė)</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Pajacai"><label for="Pajacai">Čia tik kaliausėms ar pajacams tinka</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Nuotaika"><label for="Nuotaika">Viskas gerai, tiesiog nuotaikos neturiu</label>
+        </div>
+      </div>
+      <div class="kontrole">
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Mama"><label for="Mama">Mama barė, liepė atiduot</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Girtas"><label for="Girtas">Kai pirkau buvau neblaivus (~i)</label>
+        </div>
+        <div class="kontrolepart">
+          <input type="radio" name="chooseone" value="Teismas"><label for="Teismas">Paduosiu jus ant teismo visviena</label>
+        </div>
+      </div>
+    </div>
+    <hr class="hr1">
+    <div class="labels3">
+      <input type="checkbox" name="Agree" value="Agree" id="Agree" required>&nbsp;<label for="Agree">Nesutinku su jūsų privatumo politika ir apskritai — jūs niekšai, bet spaudžiu šitą knopkę, nes kitaip neleisite submitint...</label>
+    </div>
+    <hr class="hr1">
+    <div class="subtitle">
+      <div class="labels1"></div>
+      <button type="submit" name="button">
+        <span>Siųsti</span>
+      </button>
+    </div>
+  </form>
+
+</body>
+
+</html>
